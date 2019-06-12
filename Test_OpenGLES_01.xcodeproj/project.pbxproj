@@ -15,6 +15,8 @@
 		EAD1C80E22A6A17900244F7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD1C80D22A6A17900244F7D /* main.m */; };
 		EAD1C81822A6A17900244F7D /* Test_OpenGLES_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD1C81722A6A17900244F7D /* Test_OpenGLES_01Tests.m */; };
 		EAD1C82322A6A17900244F7D /* Test_OpenGLES_01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD1C82222A6A17900244F7D /* Test_OpenGLES_01UITests.m */; };
+		EAD1C83122A6A64100244F7D /* 007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAD1C83022A6A64100244F7D /* 007.jpg */; };
+		EAD1C83322A6C2B500244F7D /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EAD1C83222A6C2B500244F7D /* timg.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		EAD1C81E22A6A17900244F7D /* Test_OpenGLES_01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_OpenGLES_01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD1C82222A6A17900244F7D /* Test_OpenGLES_01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_OpenGLES_01UITests.m; sourceTree = "<group>"; };
 		EAD1C82422A6A17900244F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD1C83022A6A64100244F7D /* 007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 007.jpg; sourceTree = "<group>"; };
+		EAD1C83222A6C2B500244F7D /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		EAD1C7FD22A6A17700244F7D /* Test_OpenGLES_01 */ = {
 			isa = PBXGroup;
 			children = (
+				EAD1C83022A6A64100244F7D /* 007.jpg */,
+				EAD1C83222A6C2B500244F7D /* timg.jpeg */,
 				EAD1C7FE22A6A17700244F7D /* AppDelegate.h */,
 				EAD1C7FF22A6A17700244F7D /* AppDelegate.m */,
 				EAD1C80122A6A17700244F7D /* ViewController.h */,
@@ -235,7 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD1C83322A6C2B500244F7D /* timg.jpeg in Resources */,
 				EAD1C80B22A6A17900244F7D /* LaunchScreen.storyboard in Resources */,
+				EAD1C83122A6A64100244F7D /* 007.jpg in Resources */,
 				EAD1C80822A6A17900244F7D /* Assets.xcassets in Resources */,
 				EAD1C80622A6A17700244F7D /* Main.storyboard in Resources */,
 			);
@@ -437,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Test_OpenGLES_01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +462,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Test_OpenGLES_01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
